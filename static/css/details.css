@@ -1,0 +1,275 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background: #282828;
+  color: antiquewhite;
+}
+
+header {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid antiquewhite;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+}
+
+header .logo img {
+  max-width: 50%;
+}
+
+header .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+header .exit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+}
+
+header .exit a {
+  z-index: 1;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  color: antiquewhite;
+  padding: 5px 15px;
+  background: #3498db;
+  border: 1px solid #3498db;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+header .exit a:hover {
+  border: 1px solid antiquewhite;
+}
+
+footer {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid antiquewhite;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+  width: 100%;
+}
+
+main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+  height: 95%;
+}
+
+main .container .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10%;
+  width: 90%;
+  border-radius: 10px;
+  -webkit-box-shadow: -3px -3px 12px #94909044, 3px 3px 12px #000000e3;
+          box-shadow: -3px -3px 12px #94909044, 3px 3px 12px #000000e3;
+}
+
+main .container .detail img {
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 5px;
+}
+
+main .container .detail .datas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .detail .datas .values {
+  text-align: left;
+  margin-bottom: 5%;
+  margin-left: 8%;
+}
+
+main .container .detail .datas .values1 {
+  margin-left: 16%;
+}
+
+main .container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  margin-left: 10%;
+}
+
+main .container1 .toppart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10%;
+  height: 50vh;
+}
+
+main .container1 .toppart .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  color: antiquewhite;
+  cursor: pointer;
+  padding: 5px 25px;
+  background: #3498db;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+main .container1 .toppart .down:hover {
+  border: 1px solid antiquewhite;
+}
+
+main .container1 .toppart .down h3 {
+  margin-left: 10px;
+}
+
+main .container1 .toppart .gauge-container {
+  width: 200px;
+  height: 200px;
+  display: block;
+  float: left;
+  padding: 10px;
+  background-color: #222;
+  margin: 7px;
+  border-radius: 3px;
+  position: relative;
+}
+
+main .container1 .toppart .gauge-container > .label {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: monospace;
+  font-size: 0.8em;
+  padding: 5px 10px;
+}
+
+main .container1 .toppart .gauge-container > .gauge .dial {
+  stroke: #334455;
+  stroke-width: 2;
+  fill: rgba(0, 0, 0, 0);
+}
+
+main .container1 .toppart .gauge-container > .gauge .value {
+  stroke: #2fe3ff;
+  stroke-width: 2;
+  fill: rgba(0, 0, 0, 0);
+}
+
+main .container1 .toppart .gauge-container > .gauge .value-text {
+  fill: #2fe3ff;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+main .container1 .bottompart {
+  height: 50vh;
+}
+
+main .container1 .bottompart table {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+main .container1 .bottompart th {
+  background: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+main .container1 .bottompart td,
+main .container1 .bottompart th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 18px;
+}
+/*# sourceMappingURL=details.css.map */

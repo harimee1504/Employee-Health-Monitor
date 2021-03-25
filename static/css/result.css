@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background: #282828;
+  color: antiquewhite;
+}
+
+header {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid antiquewhite;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+}
+
+header .logo img {
+  max-width: 40%;
+}
+
+header .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+header .exit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+}
+
+header .exit a {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  color: antiquewhite;
+  padding: 5px 15px;
+  background: #3498db;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+}
+
+header .exit a:hover {
+  border: 1px solid antiquewhite;
+}
+
+footer {
+  height: 10vh;
+  background: #282828;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 80vh;
+  border-bottom: 1px solid antiquewhite;
+  margin-top: 30px;
+}
+
+main table {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+main table a {
+  text-decoration: none;
+  color: antiquewhite;
+  padding: 5px;
+  background: #3498db;
+}
+
+main th {
+  background: #3498db;
+  color: white;
+  font-weight: bold;
+}
+
+main td,
+main th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 18px;
+}
+/*# sourceMappingURL=result.css.map */

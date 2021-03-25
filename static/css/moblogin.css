@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  color: #c9c0c0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #282828;
+}
+
+.loginform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  height: 60%;
+  background: #282828;
+  -webkit-box-shadow: -3px -3px 12px #94909044, 3px 3px 12px #000000e3;
+          box-shadow: -3px -3px 12px #94909044, 3px 3px 12px #000000e3;
+  border-radius: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.loginform form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+}
+
+.loginform h2 {
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+.loginform label {
+  margin-bottom: 5%;
+}
+
+.loginform input[type="text"] {
+  margin-bottom: 5%;
+  height: 35px;
+  background: #282828;
+  border: none;
+  color: #c9c0c0;
+  padding: 0px 20px;
+  -webkit-box-shadow: inset -3px -3px 12px #94909044, inset 3px 3px 12px #000000e3;
+          box-shadow: inset -3px -3px 12px #94909044, inset 3px 3px 12px #000000e3;
+}
+
+.loginform input[type="password"] {
+  margin-bottom: 15%;
+  height: 35px;
+  background: #282828;
+  border: none;
+  color: #c9c0c0;
+  padding: 0px 20px;
+  -webkit-box-shadow: inset -3px -3px 12px #94909044, inset 3px 3px 12px #000000e3;
+          box-shadow: inset -3px -3px 12px #94909044, inset 3px 3px 12px #000000e3;
+}
+
+.loginform input[type="submit"] {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 40%;
+  height: 40px;
+  margin-bottom: 15%;
+  border-radius: 5px;
+  color: #c9c0c0;
+  background: #282828;
+  -webkit-box-shadow: -3px -3px 12px #94909044, 3px 3px 12px #000000e3;
+          box-shadow: -3px -3px 12px #94909044, 3px 3px 12px #000000e3;
+}
+
+.loginform h4 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-right: 8%;
+  margin-bottom: 5%;
+}
+
+.loginform a {
+  padding: 5px 15px;
+  color: #c9c0c0;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 3%;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=login.css.map */

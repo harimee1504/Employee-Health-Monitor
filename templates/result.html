@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Details</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/css/result.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="../static/images/logo.png" alt="" /></div>
+      <div class="head"><h1>Employee Details</h1></div>
+      <div class="exit"><a href="/">Exit</a></div>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Id Number</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Job Title</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        {%for i in range(n)%}
+        <tbody>
+          <tr>
+            <td data-column="Id Number">{{ite[i][0]}}</td>
+            <td data-column="First Name">{{ite[i][1][0]}}</td>
+            <td data-column="Last Name">{{ite[i][2][0]}}</td>
+            <td data-column="Job Title">{{ite[i][3][0]}}</td>
+            <td data-column="Details"><form action="/sdetails" method="post"><input type="text" name="name" value={{ite[i][4]}} hidden/><input style="padding:5px 15px;background: #3498db;color: white;" type="submit" value="View More"/></form></td>
+          </tr>
+          {%endfor%}
+        </tbody>
+      </table>
+    </main>
+    <footer><h2>Designed and Crafted by Kavin</h2></footer>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/css/register.css">
+</head>
+<body>
+    <header>
+        <h1>Registration</h1>
+    </header>
+    <main>
+        <form action="/register" method="post">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="">
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="">
+        <label for="uname">User Name</label>
+        <input type="text" name="uname" id="">
+        <label for="age">Age</label>
+        <input type="text" name="age" id="">
+        <label for="gender">Gender</label>
+        <div class="radioc">
+        <input type="radio" name="gender" value="male" required>
+        <label for="radio" id="radio">Male</label>
+        <input type="radio" name="gender" value="female" required>
+        <label for="radio" id="radio">Female</label>
+        </div>
+        <label for="height">Height</label>
+        <input type="text" name="height" id="">
+        <label for="weight">Weight</label>
+        <input type="text" name="weight" id="">
+        <label for="job">Job Title</label>
+        <input type="text" name="job" id="">
+        <label for="phone">Mobile Number</label>
+        <input type="text" name="phone" id="">
+        <label for="email">E-Mail</label>
+        <input type="text" name="email" id="">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="">
+        <label for="token">Auth Token</label>
+        <input type="text" name="token" id="">
+        <input type="submit" value="Register">
+        </form>
+    </main>
+</body>
+</html>
